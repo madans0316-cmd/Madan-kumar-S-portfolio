@@ -3,7 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+  if (screen.width < 1280) {
+    document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=1280');
+  }
+</script>
 <title>Madan kumar S - ECE Engineer</title>
+<link rel="icon" href="madan AI.jpeg" type="image/jpeg">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -66,8 +72,8 @@
     <div class="hero-right">
       <div class="photo-card" id="pCard">
         <button type="button" class="photo-area" onclick="document.getElementById('photoInput').click()">
-          <img id="heroPhoto" src="" alt="Madan kumar S">
-          <div class="photo-placeholder" id="photoPlaceholder">
+          <img id="heroPhoto" src="madan AI.jpeg" alt="Madan kumar S" style="display: block;">
+          <div class="photo-placeholder" id="photoPlaceholder" style="display: none;">
             <div class="placeholder-icon">&#127891;</div>
             <div class="placeholder-text"><p>Upload Your Photo</p><span>Click to select an image</span></div>
           </div>

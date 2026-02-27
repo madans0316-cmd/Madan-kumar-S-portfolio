@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Madan kumar S - ECE Engineer</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page-loader" id="pgLoader">
+  <div class="loader-name">Madan <span>kumar S</span></div>
+  <div class="loader-bar-wrap"><div class="loader-bar"></div></div>
+  <div class="loader-sub">ECE Portfolio</div>
+</div>
+<div class="scroll-progress" id="spBar"></div>
+<div class="cursor-dot" id="cDot"></div>
+<div class="cursor-ring" id="cRing"></div>
+<nav id="mNav">
+  <div class="nav-brand">
+    <div class="nav-initials">MK</div>
+    <div class="nav-name">Madan kumar S<span>/ ECE Engineer</span></div>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#works">Works</a></li>
+    <li><a href="#contact" class="nav-cta">Get in Touch</a></li>
+  </ul>
+</nav>
+<section id="hero">
+  <div class="hero-bg-circle hbc1"></div>
+  <div class="hero-bg-circle hbc2"></div>
+  <div class="hero-bg-circle hbc3"></div>
+  <div class="hero-inner">
+    <div class="hero-left">
+      <div class="hero-status"><span class="status-dot"></span>Available for Internship &amp; Opportunities</div>
+      <h1 class="hero-heading">
+        <span class="line-wrap"><span class="line-inner l1">Electronics Engineer</span></span>
+        <span class="line-wrap"><span class="line-inner l2">Madan kumar S</span></span>
+      </h1>
+      <p class="hero-sub">Second year B.E. student in Electronics &amp; Communication Engineering at Visvesvaraya Technological University, Bangalore. Specialising in VLSI design, embedded systems, and intelligent hardware solutions.</p>
+      <div class="hero-tags">
+        <span class="hero-tag blue">VLSI Design</span><span class="hero-tag blue">Embedded Systems</span>
+        <span class="hero-tag gold">VTU Bangalore</span><span class="hero-tag">PCB Design</span>
+        <span class="hero-tag">IoT</span><span class="hero-tag">Signal Processing</span><span class="hero-tag">FPGA</span>
+      </div>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary"><span class="btn-shine"></span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.43 2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l1.09-1.09a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21.73 16z"/></svg>
+          Get in Touch</a>
+        <button class="btn btn-resume" onclick="alert('Replace href with your Resume PDF.');"><span class="btn-shine"></span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          Download Resume</button>
+        <button class="btn btn-cv" onclick="alert('Replace href with your CV PDF.');"><span class="btn-shine"></span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+          View Full CV</button>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item"><span class="stat-num" data-target="8.6" data-dec="1">0</span><span class="stat-label">Current CGPA</span></div>
+        <div class="stat-item"><span class="stat-num" data-target="6" data-suffix="+">0</span><span class="stat-label">Projects Built</span></div>
+        <div class="stat-item"><span class="stat-num" data-target="4">0</span><span class="stat-label">Years at VTU</span></div>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="photo-card" id="pCard">
+        <button type="button" class="photo-area" onclick="document.getElementById('photoInput').click()">
+          <img id="heroPhoto" src="" alt="Madan kumar S">
+          <div class="photo-placeholder" id="photoPlaceholder">
+            <div class="placeholder-icon">&#127891;</div>
+            <div class="placeholder-text"><p>Upload Your Photo</p><span>Click to select an image</span></div>
+          </div>
+          <div class="upload-overlay"><span class="upload-overlay-text">Upload Photo</span></div>
+        </button>
+        <div class="photo-info">
+          <div class="photo-info-name">Madan kumar S</div>
+          <div class="photo-info-role">B.E. Electronics &amp; Communication Engineering</div>
+          <div class="photo-info-meta"><span class="meta-badge">VTU 2025</span><span class="meta-uni">Visvesvaraya Technological University, Bangalore</span></div>
+        </div>
+      </div>
+    </div>
+    <input type="file" id="photoInput" title="Upload Photo" accept="image/*" onchange="uploadPhoto(event)">
+  </div>
+</section>
+<section id="about">
+  <div class="section-inner">
+    <div class="section-header">
+      <div class="section-eyebrow reveal rv-up">About Me</div>
+      <h2 class="section-title reveal rv-up rd1">Electronics Engineer &amp; Problem Solver</h2>
+    </div>
+    <div class="about-layout">
+      <div class="about-body reveal rv-left">
+        <p>I am <strong>Madan kumar S</strong>, a final year Electronics and Communication Engineering student at <strong>Visvesvaraya Technological University (VTU)</strong>, Bangalore. My engineering journey has been driven by a deep fascination with how electronic systems work from transistor-level circuit behaviour to full-system embedded architectures.</p>
+        <p>My primary areas of expertise include <strong>VLSI design</strong>, where I have worked on digital circuit synthesis and optimisation, and <strong>embedded systems</strong>, where I have developed firmware for microcontroller-based solutions across IoT, robotics, and automation domains.</p>
+        <p>I believe in building things not just studying them. Each project is approached with professional rigour: from requirements analysis and schematic design, through to firmware implementation and testing. My goal is to bridge the gap between theoretical electronics and deployable real-world systems.</p>
+        <div class="about-highlight">"Engineering is the closest thing to magic that exists in the world and I intend to spend my career proving that."</div>
+      </div>
+      <div class="about-sidebar reveal rv-right rd2">
+        <div class="info-card">
+          <div class="info-card-header"><div class="icon-box">&#127891;</div><div class="info-card-title">Education</div></div>
+          <div class="info-card-body">
+            <div class="edu-name">Visvesvaraya Technological University</div>
+            <div class="edu-degree">B.E. Electronics &amp; Communication Engineering</div>
+            <div class="edu-year">2021 - 2025 &nbsp;.&nbsp; Bangalore, Karnataka</div>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="info-card-header"><div class="icon-box">&#128202;</div><div class="info-card-title">Academic Profile</div></div>
+          <div class="info-card-body">
+            <div class="data-row"><span class="data-key">CGPA</span><span class="data-val blue">8.6 / 10.0</span></div>
+            <div class="data-row"><span class="data-key">Specialisation</span><span class="data-val">VLSI &amp; Embedded</span></div>
+            <div class="data-row"><span class="data-key">Core Elective</span><span class="data-val">DSP</span></div>
+            <div class="data-row"><span class="data-key">IEEE Membership</span><span class="data-val">VTU Chapter</span></div>
+            <div class="data-row"><span class="data-key">Status</span><span class="data-val blue">Final Year</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="skills">
+  <div class="section-inner">
+    <div class="section-header">
+      <div class="section-eyebrow reveal rv-up">Technical Expertise</div>
+      <h2 class="section-title reveal rv-up rd1">Skills &amp; Competencies</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-block reveal rv-up">
+        <div class="skill-block-head"><div class="skill-icon">&#9889;</div><div><div class="skill-block-title">Hardware &amp; Circuit Design</div><div class="skill-block-sub">VLSI, PCB, Analog &amp; Digital Circuits</div></div></div>
+        <div class="skill-list">
+          <div class="skill-row"><div class="skill-row-label"><span>VLSI Design (Cadence / Synopsys)</span><span class="skill-pct">85%</span></div><div class="skill-track"><div class="skill-fill" data-w="85"></div></div></div>
+          <div class="skill-row"><div class="skill-row-label"><span>PCB Design - KiCad &amp; Altium</span><span class="skill-pct">80%</span></div><div class="skill-track"><div class="skill-fill" data-w="80"></div></div></div>
+          <div class="skill-row"><div class="skill-row-label"><span>Analog Circuit Analysis</span><span class="skill-pct">90%</span></div><div class="skill-track"><div class="skill-fill" data-w="90"></div></div></div>
+          <div class="skill-row"><div class="skill-row-label"><span>Digital Logic Design</span><span class="skill-pct">88%</span></div><div class="skill-track"><div class="skill-fill" data-w="88"></div></div></div>
+        </div>
+      </div>
+      <div class="skill-block reveal rv-up rd1">
+        <div class="skill-block-head"><div class="skill-icon">&#128295;</div><div><div class="skill-block-title">Embedded Systems &amp; IoT</div><div class="skill-block-sub">Microcontrollers, RTOS, IoT Platforms</div></div></div>
+        <div class="skill-list">
+          <div class="skill-row"><div class="skill-row-label"><span>Arduino / AVR Programming</span><span class="skill-pct">92%</span></div><div class="skill-track"><div class="skill-fill" data-w="92"></div></div></div>
+          <div class="skill-row"><div class="skill-row-label"><span>STM32 / ARM Cortex-M</span><span class="skill-pct">75%</span></div><div class="skill-track"><div class="skill-fill" data-w="75"></div></div></div>
+          <div class="skill-row"><div class="skill-row-label"><span>Raspberry Pi (Linux)</span><span class="skill-pct">82%</span></div><div class="skill-track"><div class="skill-fill" data-w="82"></div></div></div>
+          <div class="skill-row"><div class="skill-row-label"><span>IoT Protocols (MQTT, LoRa)</span><span class="skill-pct">78%</span></div><div class="skill-track"><div class="skill-fill" data-w="78"></div></div></div>
+        </div>
+      </div>
+      <div class="skill-block reveal rv-up rd2">
+        <div class="skill-block-head"><div class="skill-icon">&#128187;</div><div><div class="skill-block-title">Programming Languages</div><div class="skill-block-sub">Embedded, HDL &amp; Scripting</div></div></div>
+        <div class="skill-list">
+          <div class="skill-row"><div class="skill-row-label"><span>C / C++ (Embedded)</span><span class="skill-pct">88%</span></div><div class="skill-track"><div class="skill-fill" data-w="88"></div></div></div>
+          <div class="skill-row"><div class="skill-row-label"><span>VHDL / Verilog (HDL)</span><span class="skill-pct">80%</span></div><div class="skill-track"><div class="skill-fill" data-w="80"></div></div></div>
+          <div class="skill-row"><div class="skill-row-label"><span>Python (NumPy, TFLite)</span><span class="skill-pct">76%</span></div><div class="skill-track"><div class="skill-fill" data-w="76"></div></div></div>
+          <div class="skill-row"><div class="skill-row-label"><span>MATLAB / Simulink</span><span class="skill-pct">72%</span></div><div class="skill-track"><div class="skill-fill" data-w="72"></div></div></div>
+        </div>
+      </div>
+      <div class="skill-block reveal rv-up rd3">
+        <div class="skill-block-head"><div class="skill-icon">&#128225;</div><div><div class="skill-block-title">Communications &amp; DSP</div><div class="skill-block-sub">RF, Signal Processing, Wireless</div></div></div>
+        <div class="skill-list">
+          <div class="skill-row"><div class="skill-row-label"><span>Digital Signal Processing</span><span class="skill-pct">82%</span></div><div class="skill-track"><div class="skill-fill" data-w="82"></div></div></div>
+          <div class="skill-row"><div class="skill-row-label"><span>Digital Communications (OFDM)</span><span class="skill-pct">78%</span></div><div class="skill-track"><div class="skill-fill" data-w="78"></div></div></div>
+          <div class="skill-row"><div class="skill-row-label"><span>Antenna &amp; RF Fundamentals</span><span class="skill-pct">70%</span></div><div class="skill-track"><div class="skill-fill" data-w="70"></div></div></div>
+          <div class="skill-row"><div class="skill-row-label"><span>I2C, SPI, UART, TCP/IP</span><span class="skill-pct">84%</span></div><div class="skill-track"><div class="skill-fill" data-w="84"></div></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="projects">
+  <div class="section-inner">
+    <div class="section-header">
+      <div class="section-eyebrow reveal rv-up">Portfolio</div>
+      <h2 class="section-title reveal rv-up rd1">Featured Projects</h2>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card reveal rv-up"><div class="project-top"><div class="project-icon">&#128306;</div><span class="project-num">PROJECT 01</span></div><div class="project-body"><div class="project-tech-row"><span class="tech-chip">VHDL</span><span class="tech-chip">Xilinx FPGA</span><span class="tech-chip">Vivado</span></div><div class="project-title">FPGA-Based 16-bit ALU</div><p class="project-desc">Designed and synthesised a 16-bit Arithmetic Logic Unit on Xilinx FPGA using VHDL. Supports arithmetic, logic and shift operations with timing-optimised synthesis achieving 150 MHz clock frequency.</p><div class="project-footer"><a href="#" class="project-link">View Project -></a><span class="project-status">Completed</span></div></div></div>
+      <div class="project-card reveal rv-up rd1"><div class="project-top"><div class="project-icon">&#127777;&#65039;</div><span class="project-num">PROJECT 02</span></div><div class="project-body"><div class="project-tech-row"><span class="tech-chip">Arduino</span><span class="tech-chip">MQTT</span><span class="tech-chip">IoT</span></div><div class="project-title">IoT Environmental Monitor</div><p class="project-desc">Multi-sensor IoT node monitoring temperature, humidity and air quality. Real-time data published to cloud dashboard via MQTT with configurable threshold alerts and mobile push notifications.</p><div class="project-footer"><a href="#" class="project-link">View Project -></a><span class="project-status">Completed</span></div></div></div>
+      <div class="project-card reveal rv-up rd2"><div class="project-top"><div class="project-icon">&#128225;</div><span class="project-num">PROJECT 03</span></div><div class="project-body"><div class="project-tech-row"><span class="tech-chip">STM32</span><span class="tech-chip">LoRa SX1276</span><span class="tech-chip">C</span></div><div class="project-title">Long-Range Agricultural Sensor Network</div><p class="project-desc">LoRa-based wireless sensor network for precision agriculture. STM32 nodes transmit soil moisture, pH and temperature data over 5 km range with an 18-month battery life per node.</p><div class="project-footer"><a href="#" class="project-link">View Project -></a><span class="project-status">Completed</span></div></div></div>
+      <div class="project-card reveal rv-up rd1"><div class="project-top"><div class="project-icon">&#127909;</div><span class="project-num">PROJECT 04</span></div><div class="project-body"><div class="project-tech-row"><span class="tech-chip">Raspberry Pi</span><span class="tech-chip">Python</span><span class="tech-chip">OpenCV</span></div><div class="project-title">Smart Surveillance System</div><p class="project-desc">Real-time object detection and motion analysis using Raspberry Pi and camera module. Sends automated push notifications on motion events with 94% detection accuracy in varied lighting.</p><div class="project-footer"><a href="#" class="project-link">View Project -></a><span class="project-status">Completed</span></div></div></div>
+      <div class="project-card reveal rv-up rd2"><div class="project-top"><div class="project-icon">&#9881;&#65039;</div><span class="project-num">PROJECT 05</span></div><div class="project-body"><div class="project-tech-row"><span class="tech-chip">KiCad</span><span class="tech-chip">4-Layer PCB</span><span class="tech-chip">H-Bridge</span></div><div class="project-title">Custom Dual-Channel Motor Driver PCB</div><p class="project-desc">Designed and fabricated a 4-layer PCB motor driver board for robotics. Features dual H-bridge topology, thermal protection, current sensing and a compact 60x40mm form factor.</p><div class="project-footer"><a href="#" class="project-link">View Project -></a><span class="project-status">Fabricated</span></div></div></div>
+      <div class="project-card reveal rv-up rd3"><div class="project-top"><div class="project-icon">&#129504;</div><span class="project-num">PROJECT 06</span></div><div class="project-body"><div class="project-tech-row"><span class="tech-chip">TFLite</span><span class="tech-chip">Raspberry Pi</span><span class="tech-chip">Python</span></div><div class="project-title">Edge ML Hand Gesture Controller</div><p class="project-desc">Deployed a quantised TensorFlow Lite model on Raspberry Pi 4 for real-time hand gesture recognition. Controls smart home devices wirelessly achieving 30 FPS inference with under 200ms latency.</p><div class="project-footer"><a href="#" class="project-link">View Project -></a><span class="project-status progress">In Progress</span></div></div></div>
+    </div>
+  </div>
+</section>
+<section id="works">
+  <div class="section-inner">
+    <div class="section-header">
+      <div class="section-eyebrow reveal rv-up">Other Contributions</div>
+      <h2 class="section-title reveal rv-up rd1">Websites, Research &amp; Works</h2>
+    </div>
+    <div class="reveal rv-up rd2">
+      <div class="works-table-head"><span>#</span><span>Title &amp; Description</span><span>Category</span><span>Link</span></div>
+      <div>
+        <div class="works-row"><div class="works-row-num">01</div><div><div class="works-row-title">Personal ECE Technology Blog</div><div class="works-row-desc">Technical articles on embedded systems, circuit design tutorials, and engineering career insights.</div></div><div><span class="type-badge type-web">Website</span></div><div><a href="#" class="works-link">Visit -></a></div></div>
+        <div class="works-row"><div class="works-row-num">02</div><div><div class="works-row-title">Research Paper - Low Power VLSI Design Techniques</div><div class="works-row-desc">Co-authored paper on dynamic voltage scaling and clock gating for CMOS circuits, IEEE VLSI 2024.</div></div><div><span class="type-badge type-research">Research</span></div><div><a href="#" class="works-link">Read -></a></div></div>
+        <div class="works-row"><div class="works-row-num">03</div><div><div class="works-row-title">ECE Department Interactive Lab Portal</div><div class="works-row-desc">Web-based laboratory manual with interactive circuit guides used by 200+ students at VTU.</div></div><div><span class="type-badge type-web">Website</span></div><div><a href="#" class="works-link">Visit -></a></div></div>
+        <div class="works-row"><div class="works-row-num">04</div><div><div class="works-row-title">Browser-Based Circuit Visualisation Tool</div><div class="works-row-desc">Interactive tool for ECE students to simulate and visualise basic electronic circuits.</div></div><div><span class="type-badge type-design">Design</span></div><div><a href="#" class="works-link">Visit -></a></div></div>
+        <div class="works-row"><div class="works-row-num">05</div><div><div class="works-row-title">IEEE VTU Student Branch - Workshop Organiser</div><div class="works-row-desc">Hosted two technical workshops on IoT and embedded systems with 150+ attendees each.</div></div><div><span class="type-badge type-event">Event</span></div><div><a href="#" class="works-link">Details -></a></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="contact">
+  <div class="section-inner">
+    <div class="contact-layout">
+      <div class="contact-left reveal rv-left">
+        <div class="section-header">
+          <div class="section-eyebrow">Get in Touch</div>
+          <h2 class="section-title">Let's Work Together</h2>
+        </div>
+        <p class="contact-desc">I am actively seeking internship roles, final year project collaborations, and graduate research opportunities in VLSI, embedded systems, and hardware design. Let's discuss how my skills can add value to your team.</p>
+        <div class="contact-details">
+          <a href="mailto:madankumar@email.com" class="contact-detail-item"><div class="detail-icon">&#9993;&#65039;</div><div><div class="detail-label">Email</div><div class="detail-value">madankumar@email.com</div></div></a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="contact-detail-item"><div class="detail-icon">&#128188;</div><div><div class="detail-label">LinkedIn</div><div class="detail-value">linkedin.com/in/madankumar</div></div></a>
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="contact-detail-item"><div class="detail-icon">&#128057;</div><div><div class="detail-label">GitHub</div><div class="detail-value">github.com/madankumar</div></div></a>
+          <a href="tel:+919999999999" class="contact-detail-item"><div class="detail-icon">&#128222;</div><div><div class="detail-label">Phone</div><div class="detail-value">+91 XXXXX XXXXX</div></div></a>
+        </div>
+      </div>
+      <div class="reveal rv-right rd2">
+        <div class="contact-form-card">
+          <div class="form-title">Send a Message</div>
+          <div class="form-sub">I'll respond within 24 hours.</div>
+          <form class="contact-form" onsubmit="handleSubmit(event)">
+            <div class="form-row">
+              <div class="form-group"><label for="fullName">Full Name</label><input id="fullName" type="text" placeholder="Your name" required></div>
+              <div class="form-group"><label for="emailAddr">Email Address</label><input id="emailAddr" type="email" placeholder="your@email.com" required></div>
+            </div>
+            <div class="form-group"><label for="orgName">Organisation</label><input id="orgName" type="text" placeholder="Company or University (optional)"></div>
+            <div class="form-group"><label for="subjectTxt">Subject</label><input id="subjectTxt" type="text" placeholder="Internship / Project / Research" required></div>
+            <div class="form-group"><label for="msgTxt">Message</label><textarea id="msgTxt" rows="4" placeholder="Tell me about your opportunity..." required></textarea></div>
+            <div class="submit-wrapper"><button type="submit" class="btn-submit" id="subBtn"><span class="btn-shine"></span>Send Message</button></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="footer-left">&#169; 2025 <strong>Madan kumar S</strong> - B.E. ECE, Visvesvaraya Technological University</div>
+  <div class="footer-right"><a href="#about" class="footer-link">About</a><a href="#projects" class="footer-link">Projects</a><a href="#contact" class="footer-link">Contact</a></div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

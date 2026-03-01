@@ -1635,3 +1635,127 @@ footer {
   letter-spacing: 0.14em;
   text-transform: uppercase;
 }
+
+/* ================== RESPONSIVE MEDIA QUERIES ================== */
+
+@media (max-width: 1024px) {
+  nav {
+    padding: 0 2rem;
+  }
+  .hero-inner {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    text-align: center;
+  }
+  .hero-status, .hero-tags {
+    justify-content: center;
+  }
+  .hero-sub {
+    margin: 0 auto 2.5rem;
+  }
+  .hero-actions {
+    justify-content: center;
+  }
+  .hero-heading {
+    font-size: clamp(3rem, 6vw, 4rem);
+  }
+  .hero-right {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .about-layout, .contact-layout {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  section {
+    padding: 4rem 2rem;
+  }
+  #contact::before {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    padding: 0 1rem;
+    height: auto;
+    min-height: 64px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    padding-top: 5px;
+  }
+  .nav-name span, .nav-name {
+    display: none;
+  }
+  .nav-brand {
+    padding: 0.5rem 0;
+  }
+  .nav-links {
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #hero {
+    padding: 120px 1.5rem 0;
+  }
+  .hero-heading {
+    font-size: clamp(2.5rem, 8vw, 3rem);
+  }
+  .hero-tags {
+    justify-content: center;
+  }
+  .hero-actions {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+  .btn {
+    width: 100%;
+    justify-content: center;
+  }
+  .hero-stats {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    border-top: none;
+  }
+  .stat-item {
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    padding: 1rem 0;
+  }
+  .stat-item:last-child {
+    border-bottom: none;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  .works-row, .works-table-head {
+    grid-template-columns: 2rem 1fr;
+    gap: 1rem;
+  }
+  .works-table-head span:nth-child(3), .works-table-head span:nth-child(4) {
+    display: none;
+  }
+  .works-row > div:nth-child(3), .works-row > div:nth-child(4) {
+    display: none;
+  }
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+  footer {
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+    padding: 2rem 1.5rem;
+  }
+  .footer-right {
+    gap: 1.5rem;
+  }
+}

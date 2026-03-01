@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://madans0316-cmd.github.io/Madan-kumar-S-portfolio/sitemap.xml
